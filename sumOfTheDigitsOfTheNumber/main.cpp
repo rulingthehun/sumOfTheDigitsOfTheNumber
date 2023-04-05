@@ -18,6 +18,6 @@ int main() {
         z +=  (intX / num) % 10;
         num *= 10;
     }
-    cout << z <<endl;
+    cout << "Sum of the entered number digits is = " << z <<endl;
     return 0;
 }
